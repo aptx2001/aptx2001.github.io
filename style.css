@@ -5,7 +5,13 @@
 }
 
 body {
-	margin-left: 5px;
+	background-color: lightgreen;
+	margin: 0px;
+	overflow-y: hidden;
+/*	 background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/43741895/original_7d20c8c5a71de26a5cfbe3dc4e2c5191.jpg?1771511200?bc=0");
+  background-size: cover;
+  background-repeat: no-repeat;*/
+	/*text-align: center;*/
 }
 
 /*.
@@ -27,18 +33,21 @@ body {
 */
 
 video {
-	width: 70%;
+	height: 100%;
+	margin-bottom: 10px;
+	margin-left: -20%;
 }
 
 
 img{
-	width: 150px;
-	margin-left: 70%;
-	display: absolute;
+	position: absolute;
+	width: 80%;
+	margin-left: 20%;
 }
 
+
 p {
-	color: black;
+	color: white;
 	text-decoration: none;
 	font-family: monospace;
 	font-size: 15px;
@@ -49,33 +58,47 @@ p {
 .green {
 	color: black;
 	background-color: lightgreen;
-/*.
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	*/
+	top: 30%;
+	left: 35%;
+	/*transform: translate(-50%, -50%);*/
 }
 
 .red {
 	color: black;
 	background-color: orangered;
+	position: absolute;
+	top: 40%;
+	left: 55%;
 }
 
 .blue {
 	color: black;
 	background-color: skyblue;
+	position: absolute;
+	top: 10%;
+	left: 20%;
 }
 
 .yellow {
 	color: black;
 	background-color: #EDFF4D;
+	position: absolute;
+	top: 25%;
+	left: 70%;
 }
 
 .pink {
 	color: black;
 	background-color: pink;
 }
+
+.last {
+	position: absolute;
+	top: 66%;
+	left: 5%;
+}
+
 
 a {
   color: black;
@@ -89,19 +112,35 @@ a:hover {
 	color: white;
 }
 
-.mail:hover {
-	background-color: black;
+
+.here:hover {
+	color: white;
+}
+
+.hello {
+	color: white;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+
+.if {
+	position: absolute;
+	top: 70%;
+	left: 0%;
+	color: white;
+}
+
+.mail {
+	position: absolute;
+	top: 73%;
+	left: 0%;
 	color: white;
 }
 
 
 @media screen and (max-width: 700px) {
 
-
-img{
-	height: 30%;
-	bottom: -100px;
-}
 
 p {
 	color: black;
