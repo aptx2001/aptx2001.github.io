@@ -31,7 +31,7 @@ body {
 body {
 	margin: 10px;
 	background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/47967940/original_134cf04caa50213a8b6f47599ebb4e26.jpeg?1784188887?bc=0);
-	background-size: 210%;
+	background-size: 200%;
 	background-position-x: 0%;
 	background-position-y: 10%;
 	background-repeat: no-repeat;
@@ -41,14 +41,14 @@ body {
 
 
 img{
-	width: 300px;
-	margin-bottom: 100px;
+	width: 500px;
+	margin-bottom: 0px;
 	margin-left: 150px;
 	display: block;
 }
 
 .text{
-	margin-top: 550px;
+	margin-top: 500px;
 }
 
 p {
@@ -57,14 +57,13 @@ p {
 	font-family: monospace;
 	font-size: 15px;
 	line-height: 1.5;
-	/*display: inline;*/
+	display: inline;
 	top: 100px;
 }
 
 .green {
 	color: black;
-	/*background-color: lightgreen;*/
-	display: inline;
+	background-color: lightgreen;
 /*.
 	position: absolute;
 	top: 50%;
@@ -75,22 +74,22 @@ p {
 
 .red {
 	color: black;
-	/*background-color: orangered;*/
+	background-color: orangered;
 }
 
 .blue {
 	color: black;
-	/*background-color: skyblue;*/
+	background-color: skyblue;
 }
 
 .yellow {
 	color: black;
-	/*background-color: #EDFF4D;*/
+	background-color: #EDFF4D;
 }
 
-.white {
+.pink {
 	color: black;
-	/*background-color: pink;*/
+	background-color: pink;
 }
 
 a {
@@ -140,7 +139,7 @@ body {
 	background-position-x: 0px;
 	background-position-y: 0px;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-color: white;
 }
 
