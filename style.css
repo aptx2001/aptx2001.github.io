@@ -137,6 +137,7 @@ body {
 	margin: 10px;
 	background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/47967940/original_134cf04caa50213a8b6f47599ebb4e26.jpeg?1784188887?bc=0);
 	background-size: 100%;
+	background-size: cover;
 	background-position-x: 0px;
 	background-position-y: 0px;
 	background-repeat: no-repeat;
